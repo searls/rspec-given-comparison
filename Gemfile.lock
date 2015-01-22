@@ -4,6 +4,8 @@ GEM
     diff-lcs (1.2.5)
     given_core (3.6.0)
       sorcerer (>= 0.3.7)
+    minitest (5.5.1)
+    rake (10.4.2)
     rspec (3.1.0)
       rspec-core (~> 3.1.0)
       rspec-expectations (~> 3.1.0)
@@ -25,5 +27,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  minitest
+  rake
   rspec
   rspec-given
